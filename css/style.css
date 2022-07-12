@@ -109,7 +109,20 @@ header{ /* Qui ci andrà lo sfondo */
 
 
 /* ---SEZIONI--- */
-
+.container_flexed{
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 60px 0;
+    column-gap: 150px;
+}
+.margin_container_image{
+    flex-basis: 450px;
+    background-color: #5865f2;
+}
+.margin_container_text{
+    flex-basis: 400px;
+    background-color: #23272a;
+}
 /* ---/SEZIONI-------------------------------------------------- */
 
 
