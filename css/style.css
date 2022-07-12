@@ -47,6 +47,7 @@ header{ /* Qui ci andrà lo sfondo */
     display: flex;
     column-gap: 30px;
     color: white;
+    flex-wrap: wrap;
     
 }
 
@@ -76,7 +77,7 @@ header{ /* Qui ci andrà lo sfondo */
 }
 
 .main_text_paragraph{
-    width: 600px;
+    width: 57%;
     margin: 0 auto;
     color: white;
 }
