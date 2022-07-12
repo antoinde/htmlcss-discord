@@ -125,9 +125,50 @@ header{ /* Qui ci andrà lo sfondo */
 }
 /*--/Debug-----------------*/
 
-/*--flex utilityes--*/
+/*--sezione 1--*/
+
+/*--sezione 2--*/
 .section1_flex_setup{ flex-direction: row-reverse;}
 
+/*--sezione 3--*/
+
+/*--sezione 4--*/
+.section4{
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.section4 h1{
+    font-size: 3em;
+}
+
+.section4_p{ 
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.h2_background{  /* Stelline colorate */
+    background-image: url(../img/img_discord/stars.svg);
+    background-position: bottom;
+}
+
+.section4 h2{
+    margin-bottom: 20px;
+}
+
+/*Button section4 */
+.section4 span{ 
+    height: 40px;
+    background-color: #5865f2;
+    color: white;
+    border-radius: 20px;
+    padding: 9px 20px;
+}
+
+.section4 span:before{ content: '\21E9';  }
+/* /Button section4----- */
 
 /* ---/SEZIONI-------------------------------------------------- */
 
