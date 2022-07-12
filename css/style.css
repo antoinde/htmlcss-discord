@@ -85,7 +85,9 @@ footer .margin_container{
     column-gap: 90px;
 }
 
-footer .margin_container a{    text-decoration: none;}
+footer .margin_container a{    
+    text-decoration: none;
+    color: white;}
 footer .margin_container a:visited{ color: white;}
 
 .info_box h1{
