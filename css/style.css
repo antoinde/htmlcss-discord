@@ -86,21 +86,23 @@ header{ /* Qui ci andrà lo sfondo */
     padding: 10px;
     margin: 10px 8px;
     border-radius: 20px;
+    font-family: 'Baloo 2', cursive;
+    font-weight: 700;
 }
 
 .main_button_area .buzz1{
     color: black;
     background-color: white;
     border-color: white;
-    font-family: 'Baloo 2', cursive;
-    font-weight: 700;
 }
+.main_button_area .buzz1:before{
+    content: '\21E9';
+}
+
 .main_button_area .buzz2{
     color: white;
     background-color: #23272a;
-    border-color: #23272a;
-    font-family: 'Baloo 2', cursive;
-    font-weight: 700;
+    border-color: #23272a;  
 }
 
 /* ---/HEADER--------------------------------------------------- */
