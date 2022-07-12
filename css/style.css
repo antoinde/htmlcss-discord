@@ -9,6 +9,7 @@
 /* ----UTILITYS---- */
 .bg_color_white{background-color: white;}
 .bg_color_grey{background-color: #aaaaaa;}
+.bg_color_soft_black{background-color: #23272a}
 .flex{display: flex;}
 .footer_flex-column{flex-direction: column;}
 /* ----/UTILITYS----------------------------------------------- */
@@ -24,13 +25,14 @@ body{
 /* ---HEADER--- */
 
 header{ /* Qui ci andrà lo sfondo */
-    background-color: #404eed;
+    /*background-color: #404eed; */
+    background-image: url(../img/img_discord/jumbo.png);
+    background-size: cover;
 }
 
 .margin_container{
     margin: 0 230px;
     max-width: 1200px;
-    background-color: rgb(255, 255, 255);
 }
 
 .nav{
@@ -38,7 +40,6 @@ header{ /* Qui ci andrà lo sfondo */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #404eed;
     color: white;
 }
 
@@ -54,7 +55,7 @@ header{ /* Qui ci andrà lo sfondo */
     color: white;
 }
 
-.nav_login_area a{
+.nav_login_area a{ /*PULSANTE ACCEDI*/
     height: 40px;
     background-color: white;
     border-radius: 20px;
@@ -62,13 +63,50 @@ header{ /* Qui ci andrà lo sfondo */
     color: black;
 }
 
+.header_main{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 109px;
+}
+
+.header_main h1{
+    padding-bottom: 11px;
+    font-size: 3.2em;
+    color: white;
+}
+
+.main_text_paragraph{
+    width: 600px;
+    margin: 0 auto;
+    color: white;
+}
+
+.main_button_area button{
+    padding: 10px;
+    margin: 10px 8px;
+    border-radius: 20px;
+}
+
+.main_button_area .buzz1{
+    color: black;
+    background-color: white;
+    border-color: white;
+    font-family: 'Baloo 2', cursive;
+    font-weight: 700;
+}
+.main_button_area .buzz2{
+    color: white;
+    background-color: #23272a;
+    border-color: #23272a;
+    font-family: 'Baloo 2', cursive;
+    font-weight: 700;
+}
+
 /* ---/HEADER--------------------------------------------------- */
 
 
 /* ---SEZIONI--- */
-.contenitore_momentaneo_immagine img{
-    width: 100%;
-}
+
 /* ---/SEZIONI-------------------------------------------------- */
 
 
