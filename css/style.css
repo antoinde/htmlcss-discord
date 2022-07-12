@@ -1,0 +1,116 @@
+/* ---- BODY RESET ---- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ---- /BODY RESET ------------------------------------------- */
+
+/* ----UTILITYS---- */
+.bg_color_white{background-color: white;}
+.bg_color_grey{background-color: #aaaaaa;}
+.flex{display: flex;}
+.footer_flex-column{flex-direction: column;}
+/* ----/UTILITYS----------------------------------------------- */
+
+
+body{
+    font-size: 1rem;
+    font-family: 'Baloo 2', cursive;
+    font-weight: 600;
+}
+
+
+/* ---HEADER--- */
+
+header{ /* Qui ci andrà lo sfondo */
+    background-color: #404eed;
+}
+
+.margin_container{
+    margin: 0 230px;
+    min-width: 600px;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #404eed;
+    color: white;
+}
+
+.nav_menu_area{
+    display: flex;
+    column-gap: 30px;
+    color: white;
+    
+}
+
+.nav_menu_area a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_login_area a{
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 9px 20px;
+    color: black;
+}
+
+/* ---/HEADER--------------------------------------------------- */
+
+
+/* ---SEZIONI--- */
+.contenitore_momentaneo_immagine img{
+    width: 100%;
+}
+/* ---/SEZIONI-------------------------------------------------- */
+
+
+/* ---FOOTER--- */
+footer{
+    background-color: #23272a;
+}
+
+footer .margin_container{
+    background-color: #23272a;
+    color: white;
+    font-size: 0.9rem;
+    padding: 40px;
+    column-gap: 90px;
+}
+
+footer .margin_container a{    text-decoration: none;}
+footer .margin_container a:visited{ color: white;}
+
+.info_box h1{
+    color: #5865f2;
+    line-height: 1.9rem;
+}
+
+.special_font_color{
+    color: #5865f2;
+    font-weight: 800;
+}
+
+.blue_row{
+    border: 1px solid #5865f2;
+    margin: 0 230px;
+}
+
+.footer_info{
+    justify-content: space-between;
+}
+
+.footer_info span{
+    height: 40px;
+    background-color: #5865f2;
+    border-radius: 20px;
+    padding: 9px 20px;
+}
+/* ---/FOOTER--------------------------------------------------- */
