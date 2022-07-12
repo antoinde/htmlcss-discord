@@ -109,6 +109,8 @@ header{ /* Qui ci andrà lo sfondo */
 
 
 /* ---SEZIONI--- */
+
+/*--Debug--*/
 .container_flexed{
     align-items: center;
     justify-content: space-evenly;
@@ -117,12 +119,16 @@ header{ /* Qui ci andrà lo sfondo */
 }
 .margin_container_image{
     flex-basis: 450px;
-    background-color: #5865f2;
 }
 .margin_container_text{
     flex-basis: 400px;
-    background-color: #23272a;
 }
+/*--/Debug-----------------*/
+
+/*--flex utilityes--*/
+.section1_flex_setup{ flex-direction: row-reverse;}
+
+
 /* ---/SEZIONI-------------------------------------------------- */
 
 
