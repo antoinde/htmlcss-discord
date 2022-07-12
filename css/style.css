@@ -120,6 +120,9 @@ header{ /* Qui ci andrà lo sfondo */
 .margin_container_image{
     flex-basis: 450px;
 }
+.margin_container_image img, .section4 img{
+    max-width: 100%;
+}
 .margin_container_text{
     flex-basis: 400px;
 }
@@ -198,13 +201,21 @@ footer .margin_container a:visited{ color: white;}
 .info_box .bandiera{
     width: 20px;
 }
+
+.info_box select{
+    margin: 10px 0;
+    background-color: #23272a;
+    border: none;
+    font-weight: 600;
+    color: white;
+}
 .special_font_color{
     color: #5865f2;
     font-weight: 800;
 }
 
 .blue_row{
-    border: 1px solid #5865f2;
+    border-top: 4px solid #5865f2;
     margin: 0 230px;
 }
 
